@@ -10,6 +10,13 @@
         window.location.href="http://www.iwangxing.cn/liubian/mindex.html";
     }
 </script>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/jquery.lazyload.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+    $(function() {
+        $("img.lazy").lazyload({effect: "fadeIn"});
+    });
+</script>
 <style>
     *{
         padding: 0;
@@ -32,11 +39,5 @@
 <img class="lazy" data-original="imgs/pc-img_07.jpg" alt="刘变的简历">
 <img class="lazy" data-original="imgs/pc-img_08.jpg" alt="刘变的简历">
 </body>
-<script src="js/jquery-1.11.0.min.js"></script>
-<script src="js/jquery.lazyload.min.js"></script>
-<script type="text/javascript" charset="utf-8">
-    $(function() {
-        $("img.lazy").lazyload({effect: "fadeIn"});
-    });
-</script>
+
 </html>
