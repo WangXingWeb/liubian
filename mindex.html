@@ -11,6 +11,13 @@
         window.location.href="http://www.iwangxing.cn/liubian/";
     }
 </script>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/jquery.lazyload.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+    $(function() {
+        $("img.lazy").lazyload({effect: "fadeIn",threshold: 100});
+    });
+</script>
 <style>
     *{
         padding: 0;
@@ -21,6 +28,19 @@
     }
 </style>
 <body>
-<img src="imgs/mobile-img.jpg" alt="刘变的简历">
+<img class="lazy" data-original="imgs/mobile-img_01.jpg" alt="刘变的简历">
+<img class="lazy" data-original="imgs/mobile-img_02.jpg" alt="刘变的简历">
+<img class="lazy" data-original="imgs/mobile-img_03.jpg" alt="刘变的简历">
+<img class="lazy" data-original="imgs/mobile-img_04.jpg" alt="刘变的简历">
+<img class="lazy" data-original="imgs/mobile-img_05.jpg" alt="刘变的简历">
+<img class="lazy" data-original="imgs/mobile-img_06.jpg" alt="刘变的简历">
+<img class="lazy" data-original="imgs/mobile-img_07.jpg" alt="刘变的简历">
+<img class="lazy" data-original="imgs/mobile-img_08.jpg" alt="刘变的简历">
+<img class="lazy" data-original="imgs/mobile-img_09.jpg" alt="刘变的简历">
+<img class="lazy" data-original="imgs/mobile-img_10.jpg" alt="刘变的简历">
+<img class="lazy" data-original="imgs/mobile-img_11.jpg" alt="刘变的简历">
+<img class="lazy" data-original="imgs/mobile-img_12.jpg" alt="刘变的简历">
+<img class="lazy" data-original="imgs/mobile-img_13.jpg" alt="刘变的简历">
+<img class="lazy" data-original="imgs/mobile-img_14.jpg" alt="刘变的简历">
 </body>
 </html>
