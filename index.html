@@ -14,7 +14,7 @@
 <script src="js/jquery.lazyload.min.js"></script>
 <script type="text/javascript" charset="utf-8">
     $(function() {
-        $("img.lazy").lazyload({effect: "fadeIn"});
+        $("img.lazy").lazyload({effect: "fadeIn",threshold: 200});
     });
 </script>
 <style>
@@ -30,7 +30,7 @@
     }
 </style>
 <body>
-<img class="lazy" src="imgs/pc-img_01.jpg" alt="刘变的简历">
+<img class="lazy" data-original="imgs/pc-img_01.jpg" alt="刘变的简历">
 <img class="lazy" data-original="imgs/pc-img_02.jpg" alt="刘变的简历">
 <img class="lazy" data-original="imgs/pc-img_03.jpg" alt="刘变的简历">
 <img class="lazy" data-original="imgs/pc-img_04.jpg" alt="刘变的简历">
